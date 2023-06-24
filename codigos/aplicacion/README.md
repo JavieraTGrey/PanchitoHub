@@ -11,3 +11,5 @@ estos, derecha, izquierda, adelante y atrás.
 - En la parte inferior derecha se encuentra el botón "off" que realiza el pagado de Pancho
 
 El layout del control fue actualizado en base a una ecuensta de ergonomía echa como parte del ramo.
+# Se agrega el diagrama de bloques de la aplicación:
+![diagrama_bloques(1)](https://github.com/JavieraTGrey/PanchitoHub/assets/111334548/aaffcdc1-820a-4b19-8232-0fb6fe9aec1b)
