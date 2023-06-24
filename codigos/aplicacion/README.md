@@ -10,3 +10,4 @@ estos, derecha, izquierda, adelante y atrás.
 - Los botones “Ataque!!” y "Recarga”, activan el arma y también la recargan.
 - En la parte inferior derecha se encuentra el botón "off" que realiza el pagado de Pancho
 
+El layout del control fue actualizado en base a una ecuensta de ergonomía echa como parte del ramo.
