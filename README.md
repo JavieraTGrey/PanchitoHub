@@ -1,4 +1,4 @@
-# La carpeta de Panchito - 2023
+ ## La carpeta de Panchito - 2023
 < Todo lo que esté entre llaves debe ser editado por ustedes y posteriormente eliminado>
 
 < Insertar<Título del proyecto> - <Año> una imagen del proyecto terminado, de vista general, como el que aparece abajo>
