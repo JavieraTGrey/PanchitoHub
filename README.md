@@ -9,10 +9,10 @@
 ![Robot Ejemplo](/multimedia/robot_ejemplo.png)
 
 ## Integrantes
-- Diego  - < Facultad>
+- Diego López - FAU
 - Lukas Philippi - FCFM
 - César Olivares - FCFM
-- <Integrante 4> - < Facultad>
+- Javiera Toro - FCFM
 
 
 ## Descripción del proyecto
