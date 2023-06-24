@@ -1,7 +1,4 @@
- ## La carpeta de Panchito - 2023
-< Todo lo que esté entre llaves debe ser editado por ustedes y posteriormente eliminado>
-
-< Panchoyecto - <2023> una imagen del proyecto terminado, de vista general, como el que aparece abajo>
+ ## Panchoyecto- 2023
 
 ### Historia del Battlebot
 En un mundo de ingeniería avanzada y criaturas míticas, Pancho, el Battlebot inspirado en el cangrejo de herradura, nació de la imaginación de un genio mecánico. Su objetivo: proteger la esencia de la naturaleza y equilibrar la balanza entre tecnología y magia con su poderosa picota de hielo.
@@ -28,7 +25,6 @@ En el ataque pancho contara con un arma letal al que apodamos "panchito" un ganc
 Pancho sabe que la mejor pelea es la que se evita, pero si es necesario no perdera tiempo en hacer maniobras para esquivar o bloquear ataques, su mejor defensa es dar un paso atras y jugar al contraataque
 
 ### Diagrama funcional
-< Diagrama de bloques general de funcionamiento. Se sugiere un esquema de sistemas, completo.>
 ![diagrama_bloques(1)](https://github.com/JavieraTGrey/PanchitoHub/assets/111334548/aaffcdc1-820a-4b19-8232-0fb6fe9aec1b)
 
 ## Licencia
