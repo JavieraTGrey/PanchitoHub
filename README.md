@@ -5,8 +5,8 @@
 
 ### Historia del Battlebot
 En un mundo de ingeniería avanzada y criaturas míticas, Pancho, el Battlebot inspirado en el cangrejo de herradura, nació de la imaginación de un genio mecánico. Su objetivo: proteger la esencia de la naturaleza y equilibrar la balanza entre tecnología y magia con su poderosa picota de hielo.
-  
-![Robot Ejemplo](/multimedia/robot_ejemplo.png)
+
+![20230613_125535-removebg-preview](https://github.com/JavieraTGrey/PanchitoHub/assets/137658768/f0d5ef03-07a1-4363-a521-f05b3640ab9c)
 
 ## Integrantes
 - Diego López - FAU
