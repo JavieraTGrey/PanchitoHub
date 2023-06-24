@@ -1,10 +1,10 @@
  ## La carpeta de Panchito - 2023
 < Todo lo que esté entre llaves debe ser editado por ustedes y posteriormente eliminado>
 
-< Insertar<Título del proyecto> - <Año> una imagen del proyecto terminado, de vista general, como el que aparece abajo>
+< Panchoyecto - <2023> una imagen del proyecto terminado, de vista general, como el que aparece abajo>
 
 ### Historia del Battlebot
-< Contar la historia de vida de su battlebot.>
+En un mundo de ingeniería avanzada y criaturas míticas, Pancho, el Battlebot inspirado en el cangrejo de herradura, nació de la imaginación de un genio mecánico. Su objetivo: proteger la esencia de la naturaleza y equilibrar la balanza entre tecnología y magia con su poderosa picota de hielo.
   
 ![Robot Ejemplo](/multimedia/robot_ejemplo.png)
 
@@ -16,17 +16,18 @@
 
 
 ## Descripción del proyecto
+Pancho es un robot de pelea diseñado y construido por estudiantes de la Universidad de Chile, especificamente por estudiantes de la Facultad de Arquitectura y Urbanismo junto con la Facultad de Ciencias Fisicas y Matematicas.
+Pancho fue construido mediante impresion 3D, metales y circuitos electronicos.
   
 ### Estrategia utilizada
   
 #### Ofensiva
-< Explicar brevemente el arma utilizada.>
+En el ataque pancho contara con un arma letal al que apodamos "panchito" un gancho de hielo que baja rapidamente y con la suficiente potencia para generar daño a los openentes.
 
 #### Defensiva
-< Explicar el modo de defensa del robot.>
+Pancho sabe que la mejor pelea es la que se evita, pero si es necesario no perdera tiempo en hacer maniobras para esquivar o bloquear ataques, su mejor defensa es dar un paso atras y jugar al contraataque
 
 ### Diagrama funcional
 < Diagrama de bloques general de funcionamiento. Se sugiere un esquema de sistemas, completo.>
-
 ## Licencia
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>.
