@@ -1,7 +1,7 @@
-# <Título del proyecto> - <Año>
+# La carpeta de Panchito - 2023
 < Todo lo que esté entre llaves debe ser editado por ustedes y posteriormente eliminado>
 
-< Insertar una imagen del proyecto terminado, de vista general, como el que aparece abajo>
+< Insertar<Título del proyecto> - <Año> una imagen del proyecto terminado, de vista general, como el que aparece abajo>
 
 ### Historia del Battlebot
 < Contar la historia de vida de su battlebot.>
@@ -9,9 +9,9 @@
 ![Robot Ejemplo](/multimedia/robot_ejemplo.png)
 
 ## Integrantes
-- <Integrante 1> - < Facultad>
-- <Integrante 2> - < Facultad>
-- <Integrante 3> - < Facultad>
+- Diego  - < Facultad>
+- Lukas Philippi - FCFM
+- César Olivares - FCFM
 - <Integrante 4> - < Facultad>
 
 
