@@ -1,12 +1,3 @@
-# Archivos multimedia de los battlebots
-
-Se deben subir:
-- Fotos de avance (en orden cronológico)
-- Foto del proyecto terminado
-- Vídeo de demostración/funcionamiento
-
-Se sugiere subir todas las imágenes y vídeos a esta carpeta y linkearlos desde acá para otros archivos. 
-
 # FOTOS EN PANCHORDEN PANCHOLOGICO
 - CONCEPTOS ORIGINALES
 ![concepto_v2](https://github.com/JavieraTGrey/PanchitoHub/assets/137658514/8417542a-f02a-4d8f-95d3-c6d67b48b6aa)
