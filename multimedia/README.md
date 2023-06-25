@@ -6,3 +6,7 @@ Se deben subir:
 - Vídeo de demostración/funcionamiento
 
 Se sugiere subir todas las imágenes y vídeos a esta carpeta y linkearlos desde acá para otros archivos. 
+
+# FOTOS EN PANCHORDEN PANCHOLOGICO
+- CONCEPTOS ORIGINALES
+- 
