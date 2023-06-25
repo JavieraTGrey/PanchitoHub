@@ -1,10 +1,12 @@
+//codigo desarrollado por yo, gracias por su atencion
+// incluimos las librerias que usaremos, para el node mcu y para el servomotor
 #include <ESP8266WiFi.h>
 #include <Servo.h>
-
+//configuramos el wifi con el nombre y contraseña
 const char* ssid = "PanchoWifi";
 const char* password = "12345";
 WiFiServer server(80);
-
+//le decimos en que pin esta cada coneccion
 const int PWMA = 15;
 const int AIN1 = 14;
 const int AIN2 = 12;
@@ -19,12 +21,12 @@ int servoAngle = 90;
 void setup() {
   Serial.begin(9600);
   delay(10);
-
+//le decimos que el servomotr esta en el pin 2
   servoMotor.attach(2);
 
   server.begin();
   WiFi.mode(WIFI_AP);
-
+//definimos el modo de cada pin
   pinMode(AIN1, OUTPUT);
   pinMode(AIN2, OUTPUT);
   pinMode(PWMA, OUTPUT);
@@ -50,25 +52,25 @@ void loop() {
 
   String peticion = client.readStringUntil('\r');
   client.flush();
-
+// le configuramos para que active y desactive el arma con el comando "on" y "off"
   if (peticion.indexOf("/on") != -1) {
     estado = LOW;
   }
   if (peticion.indexOf("/off") != -1) {
     estado = HIGH;
   }
-
+//le decimos que el arma en estado apagado esta en un anglo de 10 grados
   if (estado == LOW) {
     digitalWrite(2, LOW); 
     servoAngle = 10;
     servoMotor.write(servoAngle);
   }
   else {
-    digitalWrite(2, HIGH); // Reemplaza el número de pin con el correspondiente al LED
-    servoAngle = 90;
+    digitalWrite(2, HIGH); 
+    servoAngle = 90;// le decimos que el angulo del arma encendida es un angulo de 90 grados
     servoMotor.write(servoAngle);
   }
-
+//le decimos que con el comando "/Izquierda " el robot gire a la izquierda
   if (peticion.indexOf("/Izquierda") != -1) {
     digitalWrite(AIN1, HIGH);
     digitalWrite(AIN2, LOW);
@@ -78,7 +80,8 @@ void loop() {
     digitalWrite(BIN2, LOW);
     analogWrite(PWMB, 200);
 
-    delay(100);
+    delay(1000);// que haga la accion durante 1 segundo
+    //que con el comando"/Derecha" el robot vaya hacia la derecha
   } else if (peticion.indexOf("/Derecha") != -1) {
     digitalWrite(AIN1, LOW);
     digitalWrite(AIN2, HIGH);
@@ -88,7 +91,9 @@ void loop() {
     digitalWrite(BIN2, HIGH);
     analogWrite(PWMB, 200);
 
-    delay(100);
+    delay(3000);// que la accion dure 3 seg
+
+    //que con el comando "/atras" el robot vaya hacia atras
   } else if (peticion.indexOf("/Atras") != -1) {
     digitalWrite(AIN1, HIGH);
     digitalWrite(AIN2, LOW);
@@ -97,7 +102,8 @@ void loop() {
     digitalWrite(BIN2, HIGH);
     analogWrite(PWMB, 250);
 
-    delay(300);
+    delay(3000);//que la accion dure 3 seg
+    //que con el comando"/Adelante" el robot vaya hacia adelante
   } else if (peticion.indexOf("/Adelante") != -1) {
     digitalWrite(AIN1, LOW);
     digitalWrite(AIN2, HIGH);
@@ -106,7 +112,8 @@ void loop() {
     digitalWrite(BIN2, LOW);
     analogWrite(PWMB, 200);
 
-    delay(200);
+    delay(300);// que la accion dure 3 seg
+    //que detenga el movimiento
   } else if (peticion.indexOf("/Detener") != -1) {
     digitalWrite(AIN1, LOW);
     digitalWrite(AIN2, LOW);
