@@ -14,7 +14,7 @@ En un mundo de ingeniería avanzada y criaturas míticas, Pancho, el Battlebot i
 
 ## Descripción del proyecto
 Pancho es un robot de pelea diseñado y construido por estudiantes de la Universidad de Chile, especificamente por estudiantes de la Facultad de Arquitectura y Urbanismo junto con la Facultad de Ciencias Fisicas y Matematicas.
-Pancho fue construido mediante impresion 3D, metales y circuitos electronicos.
+Pancho fue construido mediante impresion 3D, circuitos electronicos, metales, junto con aparatos y piezas reutilizadas de antiguos robots de pelea.
   
 ### Estrategia utilizada
   
