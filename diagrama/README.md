@@ -1,4 +1,15 @@
 # Diagrama electromecánico
 
-Diagrama en el que se describa cómo funcionará su arma y qué componentes utiliza.
+El arma principal de Pancho es una picota de hielo que atacará verticalmente desde arriba. Con un largo de 16 cm junto con la picota que representa 13 cm. Ésta arma funcionará a partir de una fuerza que hace que esta caiga rápidamente mediante un sistema de servomotor con un apoyo al eje y un soporte de rodamientos.  
+
+
+
+
+
+
+Conexiones eléctricas:
+En este diagrama se ven las conecciones del arma que será accionada por un servomotor utilizando las conecciones libres de la pcb al pin digital 2 y al gnd y 5v.
+
+
+
 
