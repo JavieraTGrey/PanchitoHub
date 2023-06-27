@@ -62,12 +62,12 @@ void loop() {
 //le decimos que el arma en estado apagado esta en un anglo de 10 grados
   if (estado == LOW) {
     digitalWrite(2, LOW); 
-    servoAngle = 10;
+    servoAngle = 180;
     servoMotor.write(servoAngle);
   }
   else {
     digitalWrite(2, HIGH); 
-    servoAngle = 90;// le decimos que el angulo del arma encendida es un angulo de 90 grados
+    servoAngle = 0;// le decimos que el angulo del arma encendida es un angulo de 90 grados
     servoMotor.write(servoAngle);
   }
 //le decimos que con el comando "/Izquierda " el robot gire a la izquierda
@@ -80,7 +80,7 @@ void loop() {
     digitalWrite(BIN2, LOW);
     analogWrite(PWMB, 200);
 
-    delay(1000);// que haga la accion durante 1 segundo
+    delay(500);// que haga la accion durante 1 segundo
     //que con el comando"/Derecha" el robot vaya hacia la derecha
   } else if (peticion.indexOf("/Derecha") != -1) {
     digitalWrite(AIN1, LOW);
@@ -91,10 +91,10 @@ void loop() {
     digitalWrite(BIN2, HIGH);
     analogWrite(PWMB, 200);
 
-    delay(3000);// que la accion dure 3 seg
+    delay(500);// que la accion dure 3 seg
 
-    //que con el comando "/atras" el robot vaya hacia atras
-  } else if (peticion.indexOf("/Atras") != -1) {
+    //que con el comando "/Adelante" el robot vaya hacia atras
+  } else if (peticion.indexOf("/Adelante") != -1) {
     digitalWrite(AIN1, HIGH);
     digitalWrite(AIN2, LOW);
     analogWrite(PWMA, 250);
@@ -102,9 +102,9 @@ void loop() {
     digitalWrite(BIN2, HIGH);
     analogWrite(PWMB, 250);
 
-    delay(3000);//que la accion dure 3 seg
-    //que con el comando"/Adelante" el robot vaya hacia adelante
-  } else if (peticion.indexOf("/Adelante") != -1) {
+    delay(1000);//que la accion dure 3 seg
+    //que con el comando"/Atras" el robot vaya hacia adelante
+  } else if (peticion.indexOf("/Atras") != -1) {
     digitalWrite(AIN1, LOW);
     digitalWrite(AIN2, HIGH);
     analogWrite(PWMA, 200);
@@ -137,4 +137,3 @@ void loop() {
 
   Serial.println("Client disconnected");
 }
-
