@@ -67,7 +67,7 @@ void loop() {
   }
   else {
     digitalWrite(2, HIGH); 
-    servoAngle = 0;// le decimos que el angulo del arma encendida es un angulo de 90 grados
+    servoAngle = 30;// le decimos que el angulo del arma encendida es un angulo de 90 grados
     servoMotor.write(servoAngle);
   }
 //le decimos que con el comando "/Izquierda " el robot gire a la izquierda
