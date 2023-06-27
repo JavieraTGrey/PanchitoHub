@@ -12,13 +12,18 @@
 ![Pancho_Int_Original](https://github.com/JavieraTGrey/PanchitoHub/assets/137658514/4ff5a23b-d76d-4335-86bc-c4983d5f91be)
 ![Pancho_Original](https://github.com/JavieraTGrey/PanchitoHub/assets/137658514/7f3ed030-f1a5-494d-870b-de4fcf55513c)
 
+-PROBANDO APP BACAN
+
+https://github.com/JavieraTGrey/PanchitoHub/assets/111334548/d571b48a-61bb-4e7c-9923-4be24c3cd3de
+
+
 - MODELO FINAL 3D
 ![Pancho_final](https://github.com/JavieraTGrey/PanchitoHub/assets/137658514/aa900bb4-0cac-4714-997a-475b4f340472)
 
 - FOTO DE MIRA QUE LINDA QUE ESTA AHORA PANCHO
 ![panchoarma](https://github.com/JavieraTGrey/PanchitoHub/assets/137658514/6d2458d7-4b71-438d-b18e-d6deabf91362)
 
-PAra ver el video final de pancho, esta nombrado como video final pancho!
+- MIRA VIDEO DE PANCHO WENO
 
 https://github.com/JavieraTGrey/PanchitoHub/assets/111334548/1be7aa07-c87f-4cc1-880b-d860a54a1f4f
 
